@@ -28,14 +28,14 @@ const Header = () => {
             {title || 'Hello, we are'}{' '}
             <span className="text-color-main">{name || 'StormForged.'}</span>
             <br />
-            {subtitle || 'Please Standby. More to come...'}
+            {subtitle || 'Fresh from the forge, new games coming to you soon...'}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <a href="https://chromaticflint.github.io/" target="_blank" rel="noopener noreferrer">
-                {cta || 'Learn more'}
+                {cta || 'Meet the founder'}
               </a>
             </span>
           </p>
